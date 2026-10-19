@@ -124,8 +124,12 @@ cat SKILL.md >> .cursorrules
 
 ## 🎯 How to Use
 
-Once installed, ArchGuard operates autonomously. You can also explicitly trigger it:
+### 1. Slash Command (Antigravity & IDEs)
+Type `/` in the chat window to invoke ArchGuard directly:
+- **`/archguard <prompt>`** — Enforce clean layer isolation, anti-pattern checks, and minimal diffs (e.g. `/archguard review this PR`, `/archguard refactor this service`).
 
+### 2. Autonomous & Prompt-Based Triggering
+ArchGuard activates automatically based on progressive disclosure, or you can prompt it:
 - **Designing New Features**:
   > *"Design a user registration flow following archguard guidelines."*
 - **Code Reviews**:

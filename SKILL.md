@@ -1,9 +1,10 @@
 ---
 name: archguard
-description: >-
-  Enforces clean software architecture, DRY, KISS, YAGNI, layer separation,
-  anti-pattern detection, and conventional git commit formatting. Use when
-  designing modules, refactoring, performing code reviews, or creating new features.
+description: >
+  Enforces clean software architecture, DRY, KISS, YAGNI, layer separation,
+  anti-pattern detection, and conventional git commit formatting. Use when
+  designing modules, refactoring, performing code reviews, creating new features,
+  or invokes /archguard.
 ---
 
 # Software Architecture Standards & Best Practices
