@@ -24,8 +24,10 @@ AI coding assistants are fast, but left unchecked they frequently introduce arch
 |---|---|
 | **🧱 Strict Layer Isolation** | Clear boundaries between Transport, Schemas/DTOs, Services, and Data Access. |
 | **⚠️ Pre-Execution Warnings** | If you ask the agent for a quick hack or anti-pattern, it flags the risks and proposes the clean solution before touching code. |
+| **🩹 Zero Band-Aid Patches** | Prohibits quick-fix technical debt, suppression comments, and duct-tape workarounds. Resolves the true root cause. |
 | **🏷️ White-Label by Default** | Zero hardcoded client names, URLs, or business constants in domain code. Everything is config-driven. |
 | **🧪 Testing & Regression Gate** | Verification-first discipline: runs project tests before finishing and ensures 100% pass rates. |
+| **📚 Living Documentation Sync** | Automatically keeps `README.md`, docstrings, `.env.example`, and specs synchronized with code changes. Zero documentation drift. |
 | **✂️ Surgical Minimal Diffs** | Restricts AI edits strictly to your requested task without reformatting untouched code or breaking comments. |
 | **📝 Conventional Commits** | Automatically formats commit messages in standard Conventional Commit syntax. |
 
